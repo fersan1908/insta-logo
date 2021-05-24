@@ -27,7 +27,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #1b1b1b;
-    color: white;
+    color: #fff;
 }
 
 h1{
@@ -47,8 +47,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 2px #000000;
+    border-radius: var(--circle);
+    box-shadow: 0 0 15px 2px #000000;
 }
 
 .insta__box::after{
@@ -71,7 +71,7 @@ h1{
     width: var(--logo-size);
     height: var(--logo-size);
     background: transparent;
-    border: var(--border-size) solid white;
+    border: var(--border-size) solid #fff;
     border-radius: var(--border-radius-size);
 }
 
@@ -83,7 +83,7 @@ h1{
     width: var(--middle-circle-size);
     height: var(--middle-circle-size);
     border-radius: var(--circle);
-    border: var(--border-size) solid white;
+    border: var(--border-size) solid #fff;
     background: transparent;
 }
 
